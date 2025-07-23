@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Bakiroo | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Google font → optional -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- ========= HEADER / NAV ========== -->
+  <header id="header">
+    <div class="container nav__container">
+      <a href="#" class="logo">YourName<span>.</span></a>
+
+      <nav id="nav">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="menu-btn" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- ========= HERO ========= -->
+  <section id="hero" class="section hero">
+    <div class="container hero__container">
+      <h1>Hello, I'm <span>Your Name</span></h1>
+      <p class="subtitle">Front-End Developer • Designer • Tech Enthusiast</p>
+      <a href="#projects" class="btn primary">View my work</a>
+    </div>
+  </section>
+
+  <!-- ========= ABOUT ========= -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section__title">About Me</h2>
+      <p>
+        <!-- Replace text -->
+        I'm a passionate developer who loves building web experiences that
+        delight users. When I'm not coding, I'm probably hiking or brewing
+        coffee. This website is a living portfolio showcasing my latest work.
+      </p>
+
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS / Sass</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Node.js</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= PROJECTS ========= -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="project">
+        <img src="https://placehold.co/520x300" alt="Project screenshot" />
+        <div class="project__info">
+          <h3>Project Title 1</h3>
+          <p>Short description of what the project does & what tech you used.</p>
+          <a href="#" class="btn small" target="_blank" rel="noopener">Live Demo</a>
+          <a href="#" class="btn small outline" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://placehold.co/520x300" alt="Project screenshot" />
+        <div class="project__info">
+          <h3>Project Title 2</h3>
+          <p>Short description of project two. Add as many project blocks as you like.</p>
+          <a href="#" class="btn small" target="_blank" rel="noopener">Live Demo</a>
+          <a href="#" class="btn small outline" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= CONTACT ========= -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section__title">Get in Touch</h2>
+      <p>
+        Have a project or just want to say hi? Fill out the form below or send
+        me an email at <a href="mailto:you@example.com">you@example.com</a>.
+      </p>
+
+      <form id="contact-form" action="https://formspree.io/f/your-id" method="POST">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="_replyto" placeholder="Your email" required />
+        <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========= FOOTER ========= -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      <div class="socials">
+        <a href="#" aria-label="Twitter">T</a>
+        <a href="#" aria-label="GitHub">G</a>
+        <a href="#" aria-label="LinkedIn">L</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
